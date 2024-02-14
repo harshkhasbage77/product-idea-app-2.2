@@ -1,0 +1,21 @@
+# Ignore node_modules directory containing dependencies
+node_modules/
+
+# Ignore npm-cache
+.npm/
+
+# Ignore development tools and configurations
+.vscode/
+.idea/
+coverage/
+jest/
+
+# Ignore test artifacts
+*.log
+*.spec.js
+*.test.js
+*.e2e.js
+
+# Ignore build output directories
+dist/
+build/
